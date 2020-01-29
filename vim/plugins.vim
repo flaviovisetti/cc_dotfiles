@@ -28,6 +28,16 @@ Plug 'rking/ag.vim'
 Plug 'godlygeek/tabular'
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-repeat'
+Plug 'pangloss/vim-javascript'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'mattn/emmet-vim'
+Plug 'posva/vim-vue'
+Plug 'hail2u/vim-css3-syntax'
+Plug 'othree/html5.vim'
+Plug 'elixir-lang/vim-elixir'
+Plug 'ekalinin/Dockerfile.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 if filereadable(expand("~/.plugins.vim.local"))
   source ~/.plugins.vim.local
