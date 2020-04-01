@@ -12,7 +12,7 @@ nmap <silent> // :nohlsearch<CR>
 
 " Create window splits easier. The default
 " way is Ctrl-w,v and Ctrl-w,s. I remap
-" this to vv and ss 
+" this to vv and ss
 " By skwp
 nnoremap <silent> vv <C-w>v
 nnoremap <silent> ss <C-w>s
@@ -43,8 +43,8 @@ noremap <Leader>hl :set hlsearch! hlsearch?<CR>
 
 " Remapping CtrlP
 " let g:ctrlp_map = ' t'
-nnoremap <silent> <Leader>t :CtrlP<CR>
-nnoremap <silent> <Leader>p :CtrlP<CR>
+nnoremap <silent> <Leader>t :FZF<CR>
+nnoremap <silent> <Leader>p :FZF<CR>
 nnoremap <silent> <Leader>b :CtrlPBuffer<CR>
 
 " zoom a vim pane, <C-w>= to re-balance

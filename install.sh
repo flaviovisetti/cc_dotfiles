@@ -10,7 +10,8 @@ then
   echo "  - vim (vim-gnome | macvim)"
   echo "  - google-chrome (mac)"
   echo "  - iterm2 (mac)"
-  echo "  - atom (mac)"
+  echo "  - battery Goles (mac)"
+  echo "  - sparklines (mac)"
 
   case "$(uname -s)" in
     Linux)
